@@ -1,6 +1,6 @@
 """
-Prompts you for a bus route from the London Transit Commission (LTC) in London Ontario.
-Displays the distances and directions to all the buses on your selected route.
+Prompts you for bus routes from the London Transit Commission (LTC) in London Ontario.
+Displays the distances and directions to all the buses on your selected routes.
 
 The raw data is available from LTC under their terms of use:
 https://www.londontransit.ca/open-data/
@@ -185,7 +185,7 @@ def haversine(p1: tuple[float, float], p2: tuple[float, float]) -> float:
     Finds the great-circle distance between two points on a sphere; Earth in this case.
 
     This implementation assumes the earth is round.
-    If you live on a flat earth, you will need to customize this method to apply the pythatogrean theroem.
+    If you live on a flat earth, you will need to customize this method to apply the pythatogrean theorem.
     """
     alat = math.radians(p1[0])
     alng = math.radians(p1[1])
