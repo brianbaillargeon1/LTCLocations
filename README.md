@@ -30,5 +30,5 @@ To run the program:
 path/to/LTCLocations/locate.sh
 ```
 
-Note that this relies on termux-location, which may prompt for location permission.
+Note that this relies on termux-location, which may prompt for location permissions.
 It can be beneficial to run termux-location before running locate.sh to ensure the permissions are allowed.
