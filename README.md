@@ -47,3 +47,10 @@ python/ltc/locate.sh
 
 Note that this relies on termux-location, which may prompt for location permissions.
 It can be beneficial to run termux-location before running locate.sh to ensure the permissions are allowed.
+
+The script will prompt you for bus routes. E.g. to see all the nearest buses on routes 06 and 94, you can type:
+```
+6 94
+```
+
+Type "quit" to exit, or ctrl+c twice.
