@@ -1,6 +1,9 @@
 # LTCLocations
 A python script to be ran in Termux on Android to find London Ontario's London Transit Commission buses.
 
+The raw data is available from LTC under their terms of use:
+https://www.londontransit.ca/open-data/
+
 # Getting Started
 1. Install [Termux](https://termux.dev/en/), this is typically done through the F-Droid app.
 
