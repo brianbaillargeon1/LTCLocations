@@ -50,4 +50,4 @@ It can be beneficial to run termux-location before running locate.sh to ensure t
 
 The script will prompt you for bus routes. E.g. to see all the nearest buses on routes 06 and 94, you can type "6 94".
 
-Type "quit" to exit, or ctrl+c twice.
+To exit, type "quit", or ctrl+c twice.
