@@ -185,7 +185,7 @@ def haversine(p1: tuple[float, float], p2: tuple[float, float]) -> float:
     Finds the great-circle distance between two points on a sphere; Earth in this case.
 
     This implementation assumes the earth is round.
-    If you live on a flat earth, you will need to customize this method to apply the pythatogrean theorem.
+    If you live on a flat earth, you will need to customize this method to apply the pythagorean theorem.
     """
     alat = math.radians(p1[0])
     alng = math.radians(p1[1])
@@ -272,7 +272,9 @@ def print_buses() -> None:
 
 def refresh_loop(stdscr: Optional[window]) -> None:
     """
-    Prints buses locations every greatest common denominator of the GPS and LTC refresh rates
+    Prints bus locations regularly at a refresh rate.
+    The refresh rate is calculated using the greatest common denominator of the configured GPS and LTC refresh rates.
+    If the user's selected bus routes change, the bus locations are refreshed immediately.
     """
     global stop
     global scr
