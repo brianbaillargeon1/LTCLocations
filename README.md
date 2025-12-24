@@ -40,11 +40,6 @@ mv LTCLocations-main/* .
 rmdir LTCLocations-main
 ```
 
-## 4. Grant yourself execute permission
-```
-chmod +x locate.sh
-```
-
 # Usage
 To run the program, execute locate.sh in your installation path from step 3, E.g.:
 ```
