@@ -22,13 +22,22 @@ apt install python
 ```
 
 ## 3. Download this repository
+
+Pick an installation path by defining a variable called ltc_path.
+E.g. to install to python/ltc, do:
+```
+ltc_path=python/ltc
+```
+
+Then copy and paste the following:
 ```
 apt install wget
-# Choose a directory
-mkdir -p path/to/LTCLocations
-cd path/to/LTCLocations
+mkdir -p $ltc_path
+cd $ltc_path
 wget https://github.com/brianbaillargeon1/LTCLocations/archive/refs/heads/main.zip
 unzip main.zip
+mv LTCLocations-main/* .
+rmdir LTCLocations-main
 ```
 
 ## 4. Grant yourself execute permission
@@ -37,9 +46,9 @@ chmod +x locate.sh
 ```
 
 # Usage
-To run the program:
+To run the program, execute locate.sh in your installation path from step 3, E.g.:
 ```
-path/to/LTCLocations/locate.sh
+python/ltc/locate.sh
 ```
 
 Note that this relies on termux-location, which may prompt for location permissions.
