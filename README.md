@@ -26,6 +26,7 @@ ltc_path=python/ltc
 
 Then, copy and paste the following:
 ```
+wd=`pwd`
 apt install python
 apt install wget
 mkdir -p $ltc_path
@@ -34,10 +35,11 @@ wget https://github.com/brianbaillargeon1/LTCLocations/archive/refs/heads/main.z
 unzip main.zip
 mv LTCLocations-main/* .
 rmdir LTCLocations-main
+cd $wd
 ```
 
 # Usage
-To run the program, execute locate.sh in your installation path from step 3, E.g.:
+To run the program, execute locate.sh in your installation path, E.g.:
 ```
 python/ltc/locate.sh
 ```
