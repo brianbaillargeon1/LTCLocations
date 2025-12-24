@@ -24,7 +24,7 @@ E.g. to install to python/ltc, do:
 ltc_path=python/ltc
 ```
 
-Then copy and paste the following:
+Then, copy and paste the following:
 ```
 apt install python
 apt install wget
