@@ -16,12 +16,12 @@ Termux allows you to operate a BASH shell on your device. This guide uses BASH c
 
 There are many great resources to familiarize with BASH commands such as [this Bash cheat sheet](https://github.com/RehanSaeed/Bash-Cheat-Sheet).
 
-## 2. Within Termux, install python:
+## 2. Within Termux, install python
 ```
 apt install python
 ```
 
-## 3. Download this repository:
+## 3. Download this repository
 ```
 apt install wget
 # Choose a directory
