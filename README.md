@@ -16,12 +16,7 @@ Termux allows you to operate a BASH shell on your device. This guide uses BASH c
 
 There are many great resources to familiarize with BASH commands such as [this Bash cheat sheet](https://github.com/RehanSaeed/Bash-Cheat-Sheet).
 
-## 2. Within Termux, install python
-```
-apt install python
-```
-
-## 3. Download this repository
+## 2. Download this repository
 
 Pick an installation path by defining a variable called ltc_path.
 E.g. to install to python/ltc, do:
@@ -31,6 +26,7 @@ ltc_path=python/ltc
 
 Then copy and paste the following:
 ```
+apt install python
 apt install wget
 mkdir -p $ltc_path
 cd $ltc_path
